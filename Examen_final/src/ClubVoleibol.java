@@ -9,7 +9,6 @@ public class ClubVoleibol {
         "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
     };
 
-    // Constructor
     public ClubVoleibol() {
         jugadores = new Jugador[MAX_JUGADORES];
         totalJugadores = 0;
