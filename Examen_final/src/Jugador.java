@@ -38,9 +38,7 @@ public class Jugador extends Persona {
         return false;
     }
 
-    /**
-     * Consulta el monto de la mensualidad de un mes específico.
-     */
+     // Consulta el monto de la mensualidad de un mes específico.
     public double consultarMensualidad(int mes) {
         if (mes >= 1 && mes <= 12) {
             return mensualidades[mes - 1];
