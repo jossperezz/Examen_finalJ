@@ -40,10 +40,6 @@ public class Jugador extends Persona {
 
     /**
      * Consulta el monto de la mensualidad de un mes específico.
-     *
-     * @param mes El mes a consultar (1-12).
-     * @return El monto de la mensualidad del mes especificado, o 0 si el mes no
-     * es válido.
      */
     public double consultarMensualidad(int mes) {
         if (mes >= 1 && mes <= 12) {
